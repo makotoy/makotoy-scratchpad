@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		081BBF6110AADD370078AE8D /* QzEventTestMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 081BBF6010AADD310078AE8D /* QzEventTestMainMenu.xib */; };
+		081BBF6410AADD6C0078AE8D /* QZEventTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 081BBF6310AADD6C0078AE8D /* QZEventTestController.m */; };
+		081BBF7F10AADDEA0078AE8D /* QZEventTest-main.m in Sources */ = {isa = PBXBuildFile; fileRef = 081BBF7E10AADDEA0078AE8D /* QZEventTest-main.m */; };
+		081BC01910AB14400078AE8D /* QZTestWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 081BC01810AB14400078AE8D /* QZTestWindow.m */; };
+		0837119110A94EAB00E5B041 /* MyObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0837119010A94EAB00E5B041 /* MyObject.m */; };
+		08465F3510A9C6E900D4877C /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08465F3410A9C6E900D4877C /* ApplicationServices.framework */; };
+		085A66DC10B035F40084AD3E /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 085A66DB10B035F40084AD3E /* test.c */; };
+		085A66DE10B035FC0084AD3E /* test.c in Sources */ = {isa = PBXBuildFile; fileRef = 085A66DB10B035F40084AD3E /* test.c */; };
+		8DD76F9A0486AA7600D96B5E /* XCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* XCTest.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		8DD76F9F0486AA7600D96B5E /* XCTest.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* XCTest.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76F9E0486AA7600D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76F9F0486AA7600D96B5E /* XCTest.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		081BBF5810AADCD50078AE8D /* QzEventTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QzEventTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		081BBF5A10AADCD50078AE8D /* QzEventTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "QzEventTest-Info.plist"; sourceTree = "<group>"; };
+		081BBF6010AADD310078AE8D /* QzEventTestMainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QzEventTestMainMenu.xib; sourceTree = "<group>"; };
+		081BBF6210AADD6C0078AE8D /* QZEventTestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZEventTestController.h; sourceTree = "<group>"; };
+		081BBF6310AADD6C0078AE8D /* QZEventTestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZEventTestController.m; sourceTree = "<group>"; };
+		081BBF7E10AADDEA0078AE8D /* QZEventTest-main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "QZEventTest-main.m"; sourceTree = "<group>"; };
+		081BC01710AB14400078AE8D /* QZTestWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZTestWindow.h; sourceTree = "<group>"; };
+		081BC01810AB14400078AE8D /* QZTestWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZTestWindow.m; sourceTree = "<group>"; };
+		0837118F10A94EAB00E5B041 /* MyObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyObject.h; sourceTree = "<group>"; };
+		0837119010A94EAB00E5B041 /* MyObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyObject.m; sourceTree = "<group>"; };
+		08465F3410A9C6E900D4877C /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = /System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<absolute>"; };
+		085A66D610B035D70084AD3E /* test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = test; sourceTree = BUILT_PRODUCTS_DIR; };
+		085A66DB10B035F40084AD3E /* test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		08FB7796FE84155DC02AAC07 /* XCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCTest.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32A70AAB03705E1F00C91783 /* XCTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCTest_Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* XCTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = XCTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6859EA3029092ED04C91782 /* XCTest.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = XCTest.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		081BBF5610AADCD50078AE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085A66D410B035D70084AD3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				08465F3510A9C6E900D4877C /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		081BBF5E10AADCED0078AE8D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				081BBF5A10AADCD50078AE8D /* QzEventTest-Info.plist */,
+				081BBF6010AADD310078AE8D /* QzEventTestMainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB7794FE84155DC02AAC07 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				081BBF5E10AADCED0078AE8D /* Resources */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6859EA2029092E104C91782 /* Documentation */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = XCTest;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				085A66DB10B035F40084AD3E /* test.c */,
+				0837118F10A94EAB00E5B041 /* MyObject.h */,
+				0837119010A94EAB00E5B041 /* MyObject.m */,
+				32A70AAB03705E1F00C91783 /* XCTest_Prefix.pch */,
+				08FB7796FE84155DC02AAC07 /* XCTest.m */,
+				081BBF6210AADD6C0078AE8D /* QZEventTestController.h */,
+				081BBF6310AADD6C0078AE8D /* QZEventTestController.m */,
+				081BBF7E10AADDEA0078AE8D /* QZEventTest-main.m */,
+				081BC01710AB14400078AE8D /* QZTestWindow.h */,
+				081BC01810AB14400078AE8D /* QZTestWindow.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				08465F3410A9C6E900D4877C /* ApplicationServices.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* XCTest */,
+				081BBF5810AADCD50078AE8D /* QzEventTest.app */,
+				085A66D610B035D70084AD3E /* test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6859EA2029092E104C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6859EA3029092ED04C91782 /* XCTest.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		081BBF5710AADCD50078AE8D /* QzEventTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 081BBF5D10AADCD60078AE8D /* Build configuration list for PBXNativeTarget "QzEventTest" */;
+			buildPhases = (
+				081BBF5410AADCD50078AE8D /* Resources */,
+				081BBF5510AADCD50078AE8D /* Sources */,
+				081BBF5610AADCD50078AE8D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QzEventTest;
+			productName = QzEventTest;
+			productReference = 081BBF5810AADCD50078AE8D /* QzEventTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		085A66D510B035D70084AD3E /* test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 085A66DD10B035F40084AD3E /* Build configuration list for PBXNativeTarget "test" */;
+			buildPhases = (
+				085A66D310B035D70084AD3E /* Sources */,
+				085A66D410B035D70084AD3E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = test;
+			productName = test;
+			productReference = 085A66D610B035D70084AD3E /* test */;
+			productType = "com.apple.product-type.tool";
+		};
+		8DD76F960486AA7600D96B5E /* XCTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "XCTest" */;
+			buildPhases = (
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+				8DD76F9E0486AA7600D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XCTest;
+			productInstallPath = "$(HOME)/bin";
+			productName = XCTest;
+			productReference = 8DD76FA10486AA7600D96B5E /* XCTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "XCTest" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 08FB7794FE84155DC02AAC07 /* XCTest */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76F960486AA7600D96B5E /* XCTest */,
+				081BBF5710AADCD50078AE8D /* QzEventTest */,
+				085A66D510B035D70084AD3E /* test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		081BBF5410AADCD50078AE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081BBF6110AADD370078AE8D /* QzEventTestMainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		081BBF5510AADCD50078AE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				081BBF6410AADD6C0078AE8D /* QZEventTestController.m in Sources */,
+				081BBF7F10AADDEA0078AE8D /* QZEventTest-main.m in Sources */,
+				081BC01910AB14400078AE8D /* QZTestWindow.m in Sources */,
+				085A66DC10B035F40084AD3E /* test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		085A66D310B035D70084AD3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085A66DE10B035FC0084AD3E /* test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* XCTest.m in Sources */,
+				0837119110A94EAB00E5B041 /* MyObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		081BBF5B10AADCD50078AE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "QzEventTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = QzEventTest;
+			};
+			name = Debug;
+		};
+		081BBF5C10AADCD50078AE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INFOPLIST_FILE = "QzEventTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = QzEventTest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		085A66D810B035D80084AD3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				INSTALL_PATH = /usr/local/bin;
+				PREBINDING = NO;
+				PRODUCT_NAME = test;
+			};
+			name = Debug;
+		};
+		085A66D910B035D80084AD3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/bin;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = test;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XCTest_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = XCTest;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XCTest_Prefix.pch;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = XCTest;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		081BBF5D10AADCD60078AE8D /* Build configuration list for PBXNativeTarget "QzEventTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				081BBF5B10AADCD50078AE8D /* Debug */,
+				081BBF5C10AADCD50078AE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		085A66DD10B035F40084AD3E /* Build configuration list for PBXNativeTarget "test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				085A66D810B035D80084AD3E /* Debug */,
+				085A66D910B035D80084AD3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "XCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "XCTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
